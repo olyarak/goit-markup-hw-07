@@ -2,7 +2,8 @@
   display: block;
 
   font-family: 'Raleway';
-  @include font(26px, 1.2, 700);
+  font-weight: 700;
+  @include font(26px, 1.2);
 }
 
 .page-header__logo {

@@ -24,7 +24,8 @@
 
   color: $primary-text-color;
 
-  @include font(16px, 1.17, 500);
+  font-weight: 500;
+  @include font(16px, 1.17);
 }
 
 .team-list__position {
