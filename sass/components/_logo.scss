@@ -1,0 +1,14 @@
+.logo {
+  display: block;
+
+  font-family: 'Raleway';
+  @include font(26px, 1.2, 700);
+}
+
+.page-header__logo {
+  color: #000000;
+}
+
+.logo__accent {
+  color: $accent-color;
+}
